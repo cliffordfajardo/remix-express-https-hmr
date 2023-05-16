@@ -4,7 +4,7 @@
   "scripts": {
     "build": "remix build",
     "gen-cert": "node gen-cert.mjs",
-    "dev": "npm run gen-cert && remix dev --no-restart -c \" node server.js\"",
+    "dev": "remix dev --no-restart -c \"node server.js\"",
     "dev:remix": "remix watch",
     "start": "cross-env NODE_ENV=production node ./server.js",
     "typecheck": "tsc"
